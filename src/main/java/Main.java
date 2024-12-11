@@ -15,7 +15,9 @@ public class Main {
 
 // max number of characters - 100
 
-        phone.sendMessage("phone number", "message content");
+        phone.sendMessage("message content", "phone number");
+
+        phone.sendMessage("message content 2", "phone number");
 
         phone.getFirstMessage("phone number");
 
@@ -23,7 +25,7 @@ public class Main {
 
 // make a call to the second contact from the previously listed
 
-        phone.call("second phone number");
+        phone.makeCall("second phone number");
 
         phone.seeCallsHistory();
 
